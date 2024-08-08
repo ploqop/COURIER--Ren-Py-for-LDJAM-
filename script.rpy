@@ -146,7 +146,7 @@ label start:
 
         "За шавермой" if "shawarma" not in choice_1:
             $ choice_1.append("shawarma")
-            call shawarma
+            call shawarma from _call_shawarma
             "тут что-то"
     $ config.menu_include_disabled = False
 
